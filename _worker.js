@@ -10,9 +10,9 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = '866853eb-5293-4f09-bf00-e13eb237c655';
+let userID = '724AD807-32D2-E210-B05C-F02F74DDB922';
 
-const proxyIPs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'workers.cloudflare.cyou'];
+const proxyIPs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'workers.cloudflare.cyou', 'proxy.xxxxxxxx.tk', 'edgetunnel.anycast.eu.org', 'ts.hpc.tw', 'bestproxy.onecf.eu.org'];
 
 // if you want to use ipv6 or single proxyIP, please add comment at this line and remove comment at the next line
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
@@ -31,19 +31,29 @@ let addressesapi = [
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'icook.tw:443#t.me/AM_CLUBS',//官方优选域名
-	//'cloudflare.cfgo.cc:443#关注YouTube频道@AM_CLUB',
-	'visa.com:443#youtube.com/@AM_CLUB'
+	'icook.tw:443',//官方优选域名
+	'www.visa.com.sg'
+	'cis.visa.com#CF'
+	'africa.visa.com:443'
+	'qa.visamiddleeast.com'
+	'www.visaeurope.at3'
+	'usa.visa.com'
 ];
 
 let autoaddress = [
 	'icook.tw:443',
 	'cloudflare.cfgo.cc:443',
-	'visa.com:443'
+	'visa.com:443',
+	'usa.visa.com',
+	'myanmar.visa.com',
+	'www.visa.com.tw',
+	'www.visaeurope.ch',
+	'www.visa.com.br',
+	'www.visasoutheasteurope.com',
 ];
 
 let FileName = 'ansoncloud8.github.io';
-let tagName = 'youtube.com/@am_club'
+let tagName = 'GBPB'
 let SUBUpdateTime = 6;
 let total = 99;//PB
 //let timestamp = now;
