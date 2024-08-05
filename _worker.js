@@ -1,9 +1,3 @@
-/**
-*- Telegram交流群：https://t.me/AM_CLUBS
-*- YouTube频道：https://youtube.com/@AM_CLUB
-*- VLESS订阅地址：https://worker.amcloud.filegear-sg.me/866853eb-5293-4f09-bf00-e13eb237c655
-*- Github仓库地址：https://github.com/ansoncloud8
-**/
 
 // @ts-ignore
 import { connect } from 'cloudflare:sockets';
@@ -32,18 +26,25 @@ let addressesapi = [
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
 	'icook.tw:443',//官方优选域名
-	'www.visa.com.sg'
-	'cis.visa.com#CF'
-	'africa.visa.com:443'
-	'qa.visamiddleeast.com'
-	'www.visaeurope.at3'
-	'usa.visa.com'
+	'www.visa.com:443',
+	'cis.visa.com:8443',
+	'africa.visa.com:2053',
+	'www.visa.com.sg:2083',
+	'www.visaeurope.at:2087',
+	'www.visa.com.mt:2053',
+	'qa.visamiddleeast.com:2083',
+	'usa.visa.com:443',
+	'myanmar.visa.com:8443',
+	'www.visa.com.tw:2053',
+	'www.visaeurope.ch:2083',
+	'www.visa.com.br:2087',
+	'www.visasoutheasteurope.com:2096',
 ];
 
 let autoaddress = [
-	'icook.tw:443',
-	'cloudflare.cfgo.cc:443',
-	'visa.com:443',
+	'icook.tw:8443',
+	'cloudflare.cfgo.cc:8443',
+	'visa.com:2087',
 	'usa.visa.com',
 	'myanmar.visa.com',
 	'www.visa.com.tw',
